@@ -1,13 +1,11 @@
-body {
-    background-color: hsva(210, 100%, 40%, 0.37);
-}
-
 h1 {
-    color: #;
+    color: gray;
     text-align: center;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+button {
+    border-width: 0;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
 }
