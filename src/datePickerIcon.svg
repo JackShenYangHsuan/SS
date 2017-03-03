@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1426 5970.229 180.175 171.118">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0);
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #f0503f;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #f0503f;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #272727;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 17px;
+        font-family: NanumGothicExtraBold, Nanum Gothic;
+      }
+
+      .cls-5 {
+        fill: #fd4d3a;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_822" data-name="Group 822" transform="translate(-2294 -249)">
+    <path id="Path_1151" data-name="Path 1151" class="cls-1" d="M145.8,30.274A81.855,81.855,0,1,1,114.416,7.241" transform="translate(870 6222.329)"/>
+    <circle id="Ellipse_203" data-name="Ellipse 203" class="cls-2" cx="11.071" cy="11.071" r="11.071" transform="translate(976.791 6219.229)"/>
+    <circle id="Ellipse_204" data-name="Ellipse 204" class="cls-2" cx="11.071" cy="11.071" r="11.071" transform="translate(894.782 6360.284)"/>
+    <g id="Ellipse_205" data-name="Ellipse 205" class="cls-3" transform="translate(1016.191 6266.301)">
+      <circle class="cls-7" cx="15.992" cy="15.992" r="15.992"/>
+      <circle class="cls-8" cx="15.992" cy="15.992" r="13.992"/>
+    </g>
+    <text id="_2" data-name="2" class="cls-4" transform="translate(1026.853 6288.041)"><tspan x="0" y="0">2</tspan></text>
+    <circle id="Ellipse_206" data-name="Ellipse 206" class="cls-5" cx="31.573" cy="31.573" r="31.573" transform="translate(921.845 6274.175)"/>
+    <text id="Mar" class="cls-6" transform="translate(936.607 6311.497)"><tspan x="0" y="0">Mar</tspan></text>
+  </g>
+</svg>
