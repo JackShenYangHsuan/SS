@@ -1,11 +1,261 @@
-h1 {
-    color: gray;
-    text-align: center;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "San Francisco Display", sans-serif;
+  background-color: white;
 }
 
-button {
-    border-width: 0;
-    border-radius: 4px;
-    background-color: gray;
-    color: white;
+.wrapper-full {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer{
+  flex: 1;
+}
+.logo {
+  width:60;
+  height:30;
+}
+.site-navContainer{
+  flex:8;
+  display: flex;
+  flex-direction: row;
+}
+.site-nav {
+  flex: 10;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 40px;
+  letter-spacing: .1em;
+  font-size: 15px;
+  font-weight: 500;
+}
+.language{
+  flex:2;
+}
+.language > a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.3s ease;
+  font-weight: 300;
+  margin-right: 20%;
+}
+.language > a:hover{
+  color: #FD4D3A;
+}
+.site-nav > a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #363636;
+  transition: 0.3s ease;
+}
+.site-nav > a:hover {
+  color: #FD4D3A;
+}
+.pageHeader {
+  margin-top: 50px;
+  width:100%;
+  height: 100%;
+}
+.pageHeaderContent {
+  display: flex;
+}
+.headerPhoneContainer{
+  flex:3;
+}
+.headerPhone {
+  margin-top: 10%;
+  margin-left: 2%;
+  width:40%;
+  height:auto;
+  position: absolute;
+  z-index: -1;
+}
+.headerContentText {
+  flex:5;
+  padding-top: 100px;
+  padding-left: 150px;
+  width:700px;
+  display: inline-block;
+}
+.slogan {
+  letter-spacing: 3px;
+  font-size: 55px;
+  font-weight: 500;
+  color: #454545;
+  text-align: left;
+  font-weight: bolder;
+}
+.enterEmail {
+
+}
+.getEarlyAccess {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.emailInput {
+  outline : none;
+  background: transparent;
+  width: 600px;
+  font-size: 15px;
+  border-bottom-width: 2px;
+  border-bottom-color: #95989A;
+  border-top: none;
+  padding: 15px;
+  border-left: none;
+  border-right: none;
+  transition: 0.2s ease-in-out;
+}
+.emailInput:focus{
+  transform: scale(1.02);
+  border-bottom-color: black;
+}
+.submitBtn {
+  padding: 10px;
+  height: 50px;
+  width:200px;
+  border-radius: 100px;
+  border: 2px solid #FD4D3A;
+  background-color: transparent;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FD4D3A;
+  letter-spacing: 1.7px;
+  outline : none;
+  transition: 0.2s ease-in-out;
+  margin-left: 200px;
+}
+
+.submitBtn:hover{
+  transform: scale(1.05);
+  background-color: #FD4D3A;
+  color: #FD4D3A;
+  border: 2px solid #FD4D3A;
+  font-size: 13.5px;
+  color: white;
+  box-shadow: 1px 1px 10px #888888;
+}
+.pageExperienceSection{
+  margin: 0px;
+  width: 100%;
+}
+.theQuestion{
+  width:50%;
+  height: auto;
+  margin-left: 10%;
+  line-height: 23px;
+}
+.only10min{
+  color: #FD4D3A;
+  font-size: 50px;
+}
+.experience01{
+  margin-top: 10%;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+.experience01title{
+  margin-left: 800px;
+  background: #383838;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 120px;
+  width: 250px;
+  top: -12%;
+  position:absolute;
+}
+.experience01titleText{
+  line-height: 20px;
+}
+.experience01titleText01{
+  color: #606060;
+}
+.experience01titleTextTopLine{
+  color: #CCCBCB;
+}
+.experience01titleTextBottomLine{
+  color: #FD4D3A;
+  font-size: 30px;
+  line-height: 1px;
+}
+.experience01content{
+  display: flex;
+  flex-direction: row;
+  background: #EDEDED;
+  height: 120%;
+  width: 100%;
+}
+.createEventUIContainer{
+  flex: 2;
+}
+.createEventUI{
+  width: 400;
+  height: auto;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.lineGroupContainer{
+  flex: 2;
+}
+.lineGroup{
+  display: inline-block;
+  width: 200px;
+  margin-top: 210px;
+  padding-left: 0px;
+}
+.lineGroup > hr{
+  margin-bottom: 100px;
+  border-top: 2px solid #95989A;
+}
+.icon{
+  height: 50px;
+  width: auto;
+  margin-bottom: 50px;
+}
+.lineGroup1{
+  display: inline-block;
+}
+.experience01Icons{
+  flex: 0.8;
+  margin-top: 195px;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.experience01Detail{
+  flex: 5;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #535252;
+  margin-top: 175px;
+}
+.experience01DetailTime{
+  margin-bottom: 60px
+}
+.animatedClock{
+  width:100px;
+  height:5px;
+  background: #FD4D3A;
+  animation: spin 30s linear infinite;
+  transform-origin:left;
+  position: absolute;
+  margin-left: 60%;
+  z-index: 10;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

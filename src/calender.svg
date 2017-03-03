@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1882 2090 50.524 67.06">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fd4d3a;
+        font-family: SanFranciscoDisplay-Semibold, San Francisco Display;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-1 {
+        font-size: 39px;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fd4d3a;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_786" data-name="Group 786" transform="translate(-2256 -249)">
+    <text id="_2" data-name="2" class="cls-1" transform="translate(398.779 2393.535)"><tspan x="-10.769" y="0">2</tspan></text>
+    <text id="MAR" class="cls-2" transform="translate(399.023 2354.756)"><tspan x="-13.159" y="0">MAR</tspan></text>
+    <g id="Rectangle_228" data-name="Rectangle 228" class="cls-3" transform="translate(374 2339)">
+      <rect class="cls-5" width="50.524" height="67.06"/>
+      <rect class="cls-6" x="1.5" y="1.5" width="47.524" height="64.06"/>
+    </g>
+    <line id="Line_120" data-name="Line 120" class="cls-4" x2="47.768" transform="translate(375.378 2358.75)"/>
+  </g>
+</svg>
