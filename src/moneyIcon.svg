@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-948 4131.529 153.218 135.8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-948 4131.529 132.5 135.5">
   <defs>
     <style>
       .cls-1, .cls-5 {
@@ -16,7 +16,7 @@
 
       .cls-3 {
         fill: #fd4d3a;
-        font-size: 59px;
+        font-size: 50px;
         font-family: HelveticaNeue, Helvetica Neue;
       }
 
@@ -25,12 +25,12 @@
       }
     </style>
   </defs>
-  <g id="Group_821" data-name="Group 821" transform="translate(-2294 -249)">
+  <g id="Group_826" data-name="Group 826" transform="translate(-2294 -249)">
     <g id="Rectangle_220" data-name="Rectangle 220" class="cls-1" transform="translate(1346 4380.529)">
-      <rect class="cls-4" width="153.218" height="83.91"/>
-      <rect class="cls-5" x="3" y="3" width="147.218" height="77.91"/>
+      <rect class="cls-4" width="132.5" height="90.555"/>
+      <rect class="cls-5" x="3" y="3" width="126.5" height="84.555"/>
     </g>
-    <path id="Path_1186" data-name="Path 1186" class="cls-2" d="M3618.953,432.352h49.23l31.31,68.391h-108.01Z" transform="translate(-2221.408 4012.586)"/>
-    <text id="_" data-name="$" class="cls-3" transform="translate(1400.96 4463.737) rotate(90)"><tspan x="0" y="0">$</tspan></text>
+    <path id="Path_1186" data-name="Path 1186" class="cls-2" d="M3615.239,432.352h42.574l27.076,73.807h-93.4Z" transform="translate(-2224.663 4006.87)"/>
+    <text id="_" data-name="$" class="cls-3" transform="translate(1393.529 4459.51) rotate(90)"><tspan x="0" y="0">$</tspan></text>
   </g>
 </svg>

@@ -3,7 +3,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "San Francisco Display", sans-serif;
-  background-color: white;
+  background-color: #FAFAFA;
+}
+*{
+  box-sizing: border-box;
 }
 
 .wrapper-full {
@@ -60,9 +63,9 @@ body {
   color: #FD4D3A;
 }
 .pageHeader {
-  margin-top: 50px;
   width:100%;
   height: 100%;
+  background: white;
 }
 .pageHeaderContent {
   display: flex;
@@ -74,16 +77,15 @@ body {
   margin-top: 10%;
   margin-left: 2%;
   width:40%;
+  min-width: 400px;
   height:auto;
   position: absolute;
-  z-index: -1;
+  z-index: 2;
 }
 .headerContentText {
   flex:5;
-  padding-top: 100px;
-  padding-left: 150px;
-  width:700px;
-  display: inline-block;
+  padding-top: 8%;
+  max-width:700px;
 }
 .slogan {
   letter-spacing: 3px;
@@ -143,119 +145,195 @@ body {
   color: white;
   box-shadow: 1px 1px 10px #888888;
 }
-.pageExperienceSection{
-  margin: 0px;
+.experienceContainer{
+  background: #FAFAFA;
   width: 100%;
+  height: 200%;
+  padding: 5%;
 }
-.theQuestion{
-  width:50%;
-  height: auto;
-  margin-left: 10%;
-  line-height: 23px;
-}
-.only10min{
-  color: #FD4D3A;
-  font-size: 50px;
-}
-.experience01{
-  margin-top: 10%;
-  width:100%;
-  height: 600px;
-  position: relative;
-}
-.experience01title{
-  margin-left: 800px;
-  background: #383838;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  height: 120px;
-  width: 250px;
-  top: -12%;
-  position:absolute;
-}
-.experience01titleText{
-  line-height: 20px;
-}
-.experience01titleText01{
-  color: #606060;
-}
-.experience01titleTextTopLine{
-  color: #CCCBCB;
-}
-.experience01titleTextBottomLine{
-  color: #FD4D3A;
-  font-size: 30px;
-  line-height: 1px;
-}
-.experience01content{
+.experience01Container{
+  width: 90%;
+  height: 50%;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  background: #EDEDED;
-  height: 120%;
-  width: 100%;
 }
-.createEventUIContainer{
-  flex: 2;
-}
-.createEventUI{
-  width: 400;
-  height: auto;
-  padding-left: 100px;
-  padding-top: 100px;
-}
-.lineGroupContainer{
-  flex: 2;
-}
-.lineGroup{
-  display: inline-block;
-  width: 200px;
-  margin-top: 210px;
-  padding-left: 0px;
-}
-.lineGroup > hr{
-  margin-bottom: 100px;
-  border-top: 2px solid #95989A;
-}
-.icon{
-  height: 50px;
-  width: auto;
-  margin-bottom: 50px;
-}
-.lineGroup1{
-  display: inline-block;
-}
-.experience01Icons{
-  flex: 0.8;
-  margin-top: 195px;
-  flex-direction: column;
-  margin-left: 10px;
-}
-.experience01Detail{
+.experience01words{
   flex: 5;
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: #535252;
-  margin-top: 175px;
+  display: flex;
+  flex-direction: column;
 }
-.experience01DetailTime{
-  margin-bottom: 60px
+.experience01phone{
+  flex: 2;
 }
-.animatedClock{
-  width:100px;
-  height:5px;
+.experience01title{
+  flex:3;
+  display: flex;
+  flex-direction: row;
+}
+.experience01content{
+  flex:5;
+  display: flex;
+  flex-direction: row;
+}
+.titleBox{
+  max-height:100px;
+  max-width: 100px;
   background: #FD4D3A;
-  animation: spin 30s linear infinite;
-  transform-origin:left;
-  position: absolute;
-  margin-left: 60%;
-  z-index: 10;
+  text-align: center;
+  justify-content: center;
+  flex:2;
 }
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.titleBox > h1{
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+  padding: 25%;
+}
+.titleContent{
+  flex:10;
+  padding-left: 2%;
+  padding-top: 0px;
+}
+.titleContent > h1{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 1%;
+  color:#7B7B7B;
+}
+.biggerText{
+  font-size: 50px;
+  color: #FD4D3A;
+}
+.experience01icon{
+  flex:2;
+}
+.experience01icon > img{
+  width: 20%;
+  display: block;
+  margin-left:70%;
+  margin-bottom: 30%;
+}
+.experience01discript{
+  flex:5;
+  display: flex;
+  flex-direction:row;
+}
+.questions > h1{
+  font-size: 25px;
+  color: #535252;
+  padding-left: 5%;
+  margin-bottom: 27%;
+  padding-top: 5px;
+  margin-top:0px;
+}
+.questions :nth-child(2){
+  margin-bottom: 25%;
+}
+.questions{
+  flex:5;
+}
+.lines{
+  flex:3;
+  padding-top: 2%;
+
+}
+.lines > hr{
+  color: #95989A;
+  width: 250px;
+  margin-bottom: 45%;
+}
+.experience01phone > img{
+  width:70%;
+  margin-left: 10%;
+  padding-top: 35%;
+}
+.quote{
+  width:85%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.quote > h1{
+font-family: 'adobe-garamond-pro';
+font-weight: lighter;
+font-style: italic;
+font-size:45px;
+}
+.quote :nth-child(2){
+  margin:auto;
+  font-size: 20px;
+}
+.experience02Container{
+  margin-top: 10%;
+}
+.experience02Container{
+  width:90%;
+  margin:auto;
+  margin-top: 15%;
+}
+.biggerTextGray{
+  font-size: 50px;
+  color: #7B7B7B;
+}
+.experience01title > .titleContent > h1{
+  margin:0px;
+}
+.experience01title > .titleBox{
+  margin-top: 1.5%;
+}
+.experience02first{
+  width: 100%;
+  height:250px;
+  margin-top: 20%;
+}
+.experience02first > h1{
+  text-align: center;
+  font-size: 35px;
+  color: #767676;
+}
+.experience02first > img{
+  width:40%;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5%;
+}
+.experience02first :nth-child(3){
+  color: #FD4D3A;
+  font-size: 20px;
+}
+.experience02second > h1{
+  text-align: center;
+  font-size: 35px;
+  color: #767676;
+}
+.experience02secondIconContainer{
+  width:70%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.experience02secondIconContainer > div > h1{
+  color: #3B3B3B;
+  font-size:25px;
+}
+.article{
+  flex:1;
+  text-align: center;
+}
+.video{
+  flex:1;
+  text-align: center;
+}
+.money{
+  flex:1;
+  text-align: center;
+}
+.experience02secondIconContainer > div > img{
+  width: 25%;
+  margin:auto;
+  display: block;
 }

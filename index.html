@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" type="image/svg+xml" href="./src/LOGO.svg">
   <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-
-  <title>DOO</title>
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">  <title>DOO</title>
 
 
 </head>
@@ -23,7 +22,7 @@
   </script>
   <div class="wrapper-full">
 
-    <div class="logoContainer"><img src="./src/LOGO.svg" class="logo" ></div>
+    <div class="logoContainer"><img src="./src/LOGO.svg" class="logo" alt="it's our logo"></div>
     <div class="site-navContainer">
       <div class="site-nav">
         <a href="#"> ABOUT</a>
@@ -36,55 +35,100 @@
   </div>
 </div>
 
-  <div class="pageContainer">
     <div class="pageHeader">
       <div class="pageHeaderContent">
-        <div class="headerPhoneContainer"><img src="./src/phone.svg" class="headerPhone"></div>
+        <div class="headerPhoneContainer"><img src="./src/phone.svg" class="headerPhone" alt="a phone running our app"></div>
         <div class="headerContentText">
           <h1 class="slogan">YOUR SPARE TIME <br>HAS NEVER BEEN </br>SO REWARDING</h1>
           <div class="enterEmail">
             <a class="getEarlyAccess">Get early access <br></br></a>
-            <input class="emailInput" type="email" placeholder="you@email.com" autocorrect="off" autocapitalize="off" autofocus="false">
+            <input class="emailInput" type="email" placeholder="you@email.com" autocorrect="off" autocapitalize="off">
             <br></br><input class="submitBtn" type="submit" value="SUBMIT">
           </div>
         </div>
       </h1>
     </div>
   </div>
-  <div class="pageExperienceSection" >
-    <div class="theQuestion">
-    <h1>WHAT COULD YOU <br></br> HAVE DONE IN  <span class="only10min"> ONLY 10 MIN<span> ?</h1>
-      </div>
-      <div class="experience01">
+
+  <div class="experienceContainer">
+    <div class="experience01Container">
+      <div class="experience01words">
         <div class="experience01title">
-          <h2 class="experience01titleText"> <span class="experience01titleText01">01 </span><br></br> <span class="experience01titleTextTopLine">GET SMALL THINGS </span><br></br> <span class="experience01titleTextBottomLine">DONE</span></h2>
+          <div class="titleBox">
+            <h1>01</h1>
+          </div>
+          <div class="titleContent">
+            <h1>GET SMALL THINGS <br><span class="biggerText">DONE</span></br></h1>
+          </div>
         </div>
         <div class="experience01content">
-          <div class="createEventUIContainer">
-          <img src="./src/UI01.png" class="createEventUI">
+          <div class="experience01icon">
+            <img src="./src/clock.svg"/ alt="clock icon">
+            <img src="./src/calender.svg" alt="calender icon"/>
+            <img src="./src/place.svg" alt="place icon"/>
           </div>
-          <div class="lineGroupContainer">
-            <ul class="lineGroup" >
-                <hr>
-                <hr>
-                <hr>
-            </ul>
-          </div>
-          <div class="experience01Icons">
-            <div><img src="./src/clock.svg" class="icon">
+          <div class="experience01discript">
+              <div class="questions">
+                <h1>how long do you need?</h1>
+                <h1>when is the deadline?</h1>
+                <h1>do you have to do it at<br> a certain place?</br></h1>
+              </div>
+
+            <div class="lines">
+              <hr>
+              <hr>
+              <hr>
             </div>
-            <div><img src="./src/calender.svg" class="icon" style="margin-left: 5px;"></div>
-            <div><img src="./src/place.svg" class="icon"></div>
           </div>
-          <div class="experience01Detail">
-            <div><h2 class="experience01DetailTime">how long do you need?</h2></div>
-            <div><h2 class="experience01DetailTime">when is the deadline?</h2></div>
-            <div><h2 class="experience01DetailTime">do you have to do it at<br> a certain place?</br></h2></div>
+        </div>
+      </div>
+      <div class="experience01phone">
+        <img src="./src/UI01.png"/ alt="create event user interface">
+      </div>
+    </div>
+
+    <div class="quote">
+      <h1>“At any point in time, knowing what has to get done,
+            and when, creates a terrain for maneuvering.” </h1>
+      <h1>~David Allen</h1>
+    </div>
+
+    <div class="experience02Container">
+      <div class="experience01title">
+        <div class="titleBox">
+          <h1>02</h1>
+        </div>
+        <div class="titleContent">
+          <h1>STOP  <span class="biggerTextGray"> SWIPING</span> <br>START<span class="biggerText"> LEARNING</span></br></h1>
+        </div>
+      </div>
+      <div class="experience02first">
+        <h1>How long do you have?</h1>
+        <img src="./src/timeChoice.svg"/>
+        <h1>minutes</h1>
+      </div>
+
+      <div class="experience02second">
+        <h1>Feel like doing?</h1>
+        <div class="experience02secondIconContainer">
+          <div class="article">
+            <img src="./src/articleIcon.svg" alt="article icon">
+            <h1>reading<br>articles</br></h1>
           </div>
+          <div class="video">
+            <img src="./src/videoIcon.svg" alt="article icon">
+            <h1>watching<br>videos</br></h1>
+          </div>
+          <div class="money">
+            <img src="./src/moneyIcon.svg" alt="article icon">
+            <h1>earning<br>money</br></h1>
           </div>
         </div>
       </div>
     </div>
+
+  </div>
+
   </body>
 
   </html>
