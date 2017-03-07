@@ -1,13 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2162.05 -158.05 107.5 107.5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2179 -138 191 101">
   <defs>
     <style>
       .cls-1 {
+        font-size: 71px;
+        font-family: LucidaGrande, Lucida Grande;
+      }
+
+      .cls-2 {
+        font-family: AlTarikh, Al Tarikh;
+      }
+
+      .cls-3 {
         fill: none;
-        stroke: #3b3b3b;
-        stroke-miterlimit: 10;
-        stroke-width: 11.5px;
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #000;
       }
     </style>
   </defs>
-  <circle id="Ellipse_241" data-name="Ellipse 241" class="cls-1" cx="48" cy="48" r="48" transform="translate(-2156.3 -152.3)"/>
+  <g id="Group_827" data-name="Group 827" transform="translate(-2294 -249)">
+    <text id="to_ay" data-name="to    ay" class="cls-1" transform="translate(115 180)"><tspan x="0" y="0">to</tspan><tspan class="cls-2" y="0" xml:space="preserve">    </tspan><tspan y="0">ay</tspan></text>
+    <circle id="Ellipse_270" data-name="Ellipse 270" cx="14.709" cy="14.709" r="14.709" transform="translate(193.428 153.656)"/>
+    <line id="Line_131" data-name="Line 131" class="cls-3" y2="55.894" transform="translate(220.168 111.735)"/>
+    <path id="Path_1204" data-name="Path 1204" class="cls-4" d="M-2139.559-66.391c7.252-9.084-8.236-11.605-8.236-11.605v-5.249s20.438,8,11.4,14.7S-2139.559-66.391-2139.559-66.391Z" transform="translate(2370.794 195.746)"/>
+  </g>
 </svg>

@@ -4,6 +4,8 @@ body {
   padding: 0;
   font-family: "San Francisco Display", sans-serif;
   background-color: #FAFAFA;
+  position: absolute;
+  z-index: -2;
 }
 *{
   box-sizing: border-box;
@@ -23,8 +25,7 @@ body {
   flex: 1;
 }
 .logo {
-  width:60;
-  height:30;
+  width:100px;
 }
 .site-navContainer{
   flex:8;
@@ -49,6 +50,7 @@ body {
   transition: 0.3s ease;
   font-weight: 300;
   margin-right: 20%;
+  letter-spacing: 2.5px;
 }
 .language > a:hover{
   color: #FD4D3A;
@@ -58,13 +60,14 @@ body {
   text-decoration: none;
   color: #363636;
   transition: 0.3s ease;
+  letter-spacing: 3px;
 }
 .site-nav > a:hover {
   color: #FD4D3A;
 }
 .pageHeader {
   width:100%;
-  height: 100%;
+  height: 200%;
   background: white;
 }
 .pageHeaderContent {
@@ -146,6 +149,7 @@ body {
   box-shadow: 1px 1px 10px #888888;
 }
 .experienceContainer{
+  margin-top: 10%;
   background: #FAFAFA;
   width: 100%;
   height: 200%;
