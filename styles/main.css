@@ -122,7 +122,7 @@ body {
   transform: scale(1.02);
   border-bottom-color: black;
 }
-.submitBtn {
+#submitBtn {
   padding: 10px;
   height: 50px;
   width:200px;
@@ -137,9 +137,11 @@ body {
   outline : none;
   transition: 0.2s ease-in-out;
   margin-left: 200px;
+  position: absolute;
+  z-index: 10;
 }
 
-.submitBtn:hover{
+#submitBtn:hover{
   transform: scale(1.05);
   background-color: #FD4D3A;
   color: #FD4D3A;
@@ -147,6 +149,13 @@ body {
   font-size: 13.5px;
   color: white;
   box-shadow: 1px 1px 10px #888888;
+}
+.whiteSpace{
+  width: 100%;
+  height: 125px;
+  background: white;
+  position: absolute;
+  z-index: 2;
 }
 .experienceContainer{
   margin-top: 10%;
